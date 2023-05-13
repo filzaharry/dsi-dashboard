@@ -3,9 +3,9 @@ services:
 
   app:
     build:
-      args:
-        user: dsi
-        uid: 1000
+      # args:
+      #   user: dsi
+      #   uid: 1000
       context: ./
       dockerfile: Dockerfile
     image: dsi-website
